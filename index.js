@@ -9,7 +9,7 @@ function slmPreprocessor(config, logger) {
   return function(content, file, done) {
     var result;
     result = slm(content, options);
-    log('slm result', result);
+    log.debug('slm result', result);
     done(null, result);
   }
 }
