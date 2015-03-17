@@ -1,0 +1,26 @@
+{
+  "name": "karma-slm-preprocessor",
+  "version": "0.0.1",
+  "description": "Karma preprocessor for the slm templating language.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/looker/karma-slm-preprocessor.git"
+  },
+  "keywords": [
+    "karma",
+    "slm",
+    "preprocessor",
+    "karma-slm",
+    "karma-slm-preprocessor"
+  ],
+  "author": "Nate Agrin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/looker/karma-slm-preprocessor/issues"
+  },
+  "homepage": "https://github.com/looker/karma-slm-preprocessor"
+}
