@@ -19,7 +19,7 @@ function slmPreprocessor(config, logger, helper) {
   }
 }
 
-slmPreprocessor.$inject = ['config.slm', 'logger', 'helper'];
+slmPreprocessor.$inject = ['config.slmPreprocessor', 'logger', 'helper'];
 
 module.exports = {
   'preprocessor:slm': ['factory', slmPreprocessor]
